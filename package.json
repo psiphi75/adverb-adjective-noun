@@ -1,0 +1,18 @@
+{
+  "name": "adverb-adjective-noun",
+  "version": "0.0.1",
+  "description": "A basic random phrase creator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psiphi75/adverb-adjective-noun"
+  },
+  "author": "Simon M. Werner",
+  "license": "APSL-2.0",
+  "bugs": {
+    "url": "https://github.com/psiphi75/adverb-adjective-noun/issues"
+  }
+}
