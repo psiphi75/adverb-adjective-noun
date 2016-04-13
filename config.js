@@ -9,5 +9,5 @@ module.exports = {
     nouns: 'myNouns.txt',
 
     // This file keeps a track of the used phrases, such that we don't re-use them.
-    used_filename: 'used.txt'
+    used_filename: 'myUsed.txt'
 };
