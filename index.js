@@ -54,7 +54,8 @@ var aan = createAAN();
 while (used.indexOf(aan) >= 0) {
     aan = createAAN();
 }
-console.log(aan);
+var tla = aan.split(' ').reduce(function(result, word) { return result + word.substr(0, 1); }, '');
+console.log(aan + ' (' + tla + ')');
 fs.appendFileSync(config.used_filename, '\n' + aan);
 
 function createAAN() {
